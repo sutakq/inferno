@@ -1,0 +1,27 @@
+.button {
+    background-color: #484848;
+    color: white;
+    padding: 12px 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    outline: none;
+    font-weight: 100;
+    font-family: 'Jost';
+    transition: 0.3s;
+    font-size: 14px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px 0px;
+}
+.button:hover{
+    background: transparent;
+    border: 1px solid #484848;
+    cursor: pointer;
+    color: #484848;
+}
